@@ -1,4 +1,4 @@
-CFLAGS += -Wall -Werror
+CFLAGS += -Wall -Werror -g -O0
 
 CC=$(CROSS_COMPILE)gcc
 all:
